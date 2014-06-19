@@ -38,7 +38,7 @@ h4 {
 }
 
 h1 {
-    top: 60px;
+    top: 57px;
     font-family: 'Changa One', 'Open Sans';
     font-size: 10em;
 }
@@ -78,6 +78,11 @@ h2 {
     width: 70%;
 }
 
+.source {
+    font-size: 0.8em;
+    color: grey;
+}
+
 .poster-container {
     margin-top: 15px;
     display: inline-block;
@@ -90,6 +95,11 @@ h2 {
     }
 }
 
+.clear-float {
+    clear: left;
+    clear: right;
+}
+
 .browsehappy {
     margin: 0.2em 0;
     background: #ccc;
@@ -99,9 +109,17 @@ h2 {
 
 @media screen and (max-width: 900px) {
 
+  .leaderboard {
+    height: 260px;
+  }
+
   .circle {
     width: 120px;
     height: 120px;
+  }
+
+  h2 {
+    top: 210px;
   }
   
 }
@@ -113,7 +131,7 @@ h2 {
   }
 
   h2 {
-    top: 190px;
+    top: 180px;
   }
   
 }
@@ -121,11 +139,11 @@ h2 {
 @media screen and (max-width: 500px) {
 
   .leaderboard {
-    height: 200px;
+    height: 190px;
   }
 
   h2 {
-    top: 160px;
+    top: 150px;
   }
   
 }
