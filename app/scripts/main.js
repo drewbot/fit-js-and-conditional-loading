@@ -8,3 +8,4 @@ $(window).resize(function(){
 		$('.circle').show()
 	}	
 });
+
